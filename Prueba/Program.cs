@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PG.Validador;
+using System;
 
 namespace Prueba
 {
@@ -28,7 +29,7 @@ namespace Prueba
 
                 var _cedula = Console.ReadLine();
 
-                var validador = new PG.Validador.Cedula(_cedula);
+                var validador = new Cedula(_cedula);
                 var result = validador.Valida();
 
                 Console.WriteLine(result);
@@ -40,7 +41,7 @@ namespace Prueba
 
                 var _rnc = Console.ReadLine();
 
-                var validador = new PG.Validador.RNC(_rnc);
+                var validador = new RNC(_rnc);
                 var result = validador.Valida();
 
                 Console.WriteLine(result);

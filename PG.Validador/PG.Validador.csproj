@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/cdelgado1978/ValidaCedulaRNC</RepositoryUrl>
+    <PackageTags>Cedula, RNC, Validador</PackageTags>
+    <Description>Validador de Cedulas y RNC.</Description>
+    <Company>Palmea Group, SRL</Company>
+    <Authors>cdelgado1978</Authors>
   </PropertyGroup>
 
 </Project>
