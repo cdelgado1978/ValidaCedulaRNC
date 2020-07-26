@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PG.Validador.CedulaRNC\PG.Validador.csproj" />
-    <ProjectReference Include="..\PG.Validador\PG.Validador.csproj" />
   </ItemGroup>
 
 </Project>

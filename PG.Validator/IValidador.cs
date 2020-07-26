@@ -1,4 +1,5 @@
-﻿namespace PG.Validador
+﻿
+namespace PG.Validador
 {
     public interface IValidador
     {

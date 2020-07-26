@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/cdelgado1978/ValidaCedulaRNC</RepositoryUrl>
@@ -9,6 +9,7 @@
     <Description>Validador de Cedulas y RNC.</Description>
     <Company>Palmea Group, SRL</Company>
     <Authors>cdelgado1978</Authors>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
